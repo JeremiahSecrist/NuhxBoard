@@ -23,6 +23,7 @@
     xorg.libXcursor
     xorg.libXi
     xorg.libXrandr
+    wayland
   ];
 in
   rustPlatform.buildRustPackage rec {
